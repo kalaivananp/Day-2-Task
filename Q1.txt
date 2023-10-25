@@ -1,0 +1,21 @@
+Write a blog on the diffrence between document and window objects
+
+Window:
+The window is the  global object in the web browser environment.
+The window object represents an open window in a browser.
+The window object methods are used to retrieve the information from the browser window through its methods.
+Example: alert, confirm, prompt, open, close, focus, blur, postMessage, scrollTo, scrollBy, resizeTo, and resizeBy, 
+
+
+
+
+
+Document:
+A document is an object inside the window object and we use a document object for manipulation inside the document. 
+The screen,it contains properties about the user's display. The document is where the DOM is.
+When an HTML document is loaded into a web browser, it becomes a document object. 
+The document object is the root node of the HTML document. 
+we can access the element in the HTML page. With the help of document objects, we can add dynamic content to our web page.
+Syntax:
+document.property_name;
+
